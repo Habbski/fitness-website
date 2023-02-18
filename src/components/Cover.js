@@ -8,16 +8,18 @@ export default function Cover() {
         <div className='relative'>
           <Navbar />
           <img src={mainCover} />
-          <div className='container mx-auto max-w-lg px-2 sm:px-6 lg:px-8 absolute inset-0 flex flex-col justify-center text-white '>
-            <div className='mb-12'>
-              <h1 className='text-5xl mb-5'>
+          <div id='thisOne' className='container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 xl:px-8 absolute inset-0 flex flex-col justify-center text-white'>
+            <div className='xl:max-w-xl lg:max-w-md md:max-w-sm max-w-xs mb-12 2xl:pb-[12rem] xl:pb-[5rem] lg:pb-[5rem] pt-15'>
+              <h1 className='xl:text-5xl lg:text-4xl md:text-3xl text-2xl'>
                 Instant Knowledge of Exercises and Workouts
               </h1>
-              <p className='text-lg mb-5'>
+              <p className='xl:text-lg lg:text-base md:text-sm sm:text-xs text-xs 2xl:my-6 xl:my-6 lg:my-4 my-2 xl:max-w-lg lg:max-w-[25rem] md:max-w-[20rem] sm:max-w-[16rem] max-w-[16rem]'>
                 All-in-one place for you to learn about exercises and different
                 workout routines and styles.
               </p>
-              <button className='mb-20'>Sign up</button>
+              <button className='xl:text-lg lg:text-base md:text-sm text-xs'>
+                Sign up
+              </button>
             </div>
           </div>
         </div>
