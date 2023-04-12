@@ -1,10 +1,11 @@
 import mainCover from '../assets/img/main-cover.jpg';
+import Info from './Info';
 import Navbar from './Navbar';
 
 export default function Cover() {
   return (
     <section id='home'>
-      <div className='container mx-auto relative'>
+      <div className='relative'>
         <div className='relative'>
           <Navbar />
           <img src={mainCover} />
@@ -24,6 +25,7 @@ export default function Cover() {
           </div>
         </div>
       </div>
+      <Info />
     </section>
   );
 }
