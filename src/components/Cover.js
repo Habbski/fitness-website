@@ -1,5 +1,4 @@
 import mainCover from '../assets/img/main-cover.jpg';
-import Info from './Info';
 import Navbar from './Navbar';
 
 export default function Cover() {
@@ -25,7 +24,7 @@ export default function Cover() {
           </div>
         </div>
       </div>
-      <Info />
+      
     </section>
   );
 }
