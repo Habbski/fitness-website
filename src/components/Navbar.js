@@ -37,12 +37,12 @@ export default function Navbar() {
                     <img
                       className='block w-auto lg:hidden'
                       src={logo}
-                      alt='Your Company'
+                      alt='Sweat As'
                     />
                     <img
                       className='hidden w-auto lg:block'
                       src={logo}
-                      alt='Your Company'
+                      alt='Sweat AsS'
                     />
                   </div>
                   <div className='hidden sm:ml-6 sm:block'>

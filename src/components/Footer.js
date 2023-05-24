@@ -1,3 +1,5 @@
+import logo from '../assets/img/sweat.svg';
+
 export default function Footer() {
   return (
     <footer className='bg-gray-900 text-white p-8'>
@@ -5,8 +7,14 @@ export default function Footer() {
         <div className='grid grid-cols-5 gap-[30px]'>
           {/* First column */}
           <div className='col-span-1 max-w-[160px]'>
-            <p className='text-2xl mb-4'>MyLogo</p>
-            <p className='text-sm opacity-80'>Platform for every type of athletes.</p>
+            <img
+              className='mb-4 mt-2'
+              src={logo}
+              alt='SweatLogo'
+            />
+            <p className='text-sm opacity-80 mt-6'>
+              Platform for every type of athletes.
+            </p>
           </div>
 
           {/* Second column */}
