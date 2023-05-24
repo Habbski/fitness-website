@@ -29,7 +29,7 @@ export default function ReviewCarousel() {
   ];
   return (
     <div className='flex flex-col items-center justify-center min-h-screen'>
-      <h2 className='mb-4 text-2xl font-bold text-white'>
+      <h2 className='mb-[60px] text-5xl font-bold text-white'>
         What people say about Sweat
       </h2>
       <Carousel autoPlay showThumbs={false} showStatus={false} infiniteLoop={true} emulateTouch={true} swipeable={true} centerMode={true} centerSlidePercentage={33.33} slidesToShow={3}>

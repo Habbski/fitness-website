@@ -2,8 +2,8 @@ import Star from '../assets/img/review-star.svg';
 
 export default function ReviewCard({ review }) {
   return (
-    <div className='p-4 md:p-6 bg-white shadow-lg rounded-lg flex flex-col items-start space-y-8 md:space-y-12 w-full md:max-w-[367px] h-full md:h-[415px] mx-auto'>
-      <div className='flex justify-center'>
+    <div className='p-4 md:p-6 bg-[#1E2728] shadow-lg rounded-lg flex flex-col justify-between items-start space-y-8 md:space-y-12 w-full md:max-w-[367px] h-full md:h-[415px] mx-auto'>
+      <div className='flex justify-center pt-6'>
         {[...Array(5)].map((star, i) => {
           const ratingValue = i + 1;
           return (
@@ -19,18 +19,18 @@ export default function ReviewCard({ review }) {
           );
         })}
       </div>
-      <div className='text-sm text-gray-600 text-center px-2'>
+      <div className='text-lg text-white text-start px-2'>
         {review.text}
       </div>
-      <div className='flex items-center'>
+      <div className='flex items-center pb-10'>
         <img
-          className='w-14 h-14 rounded-full'
+          className='-full md:max-w-[52px] h-full md:h-[52px] rounded-full'
           src={review.profilePic}
           alt={review.name}
         />
-        <div className='text-sm ml-4'>
-          <p className='text-gray-900 leading-none'>{review.name}</p>
-          <p className='text-gray-600'>{review.jobTitle}</p>
+        <div className='text-lg ml-4 text-start'>
+          <p className='text-white leading-none'>{review.name}</p>
+          <p className='text-white opacity-80'>{review.jobTitle}</p>
         </div>
       </div>
     </div>
