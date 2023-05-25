@@ -7,7 +7,7 @@ export default function Cover() {
       <div className='relative'>
         <div className='relative'>
           <Navbar />
-          <img src={mainCover} />
+          <img className='xl:w-screen xl:max-h-[1100px]' src={mainCover} />
           <div className='container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 xl:px-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col text-white'>
             <div className='xl:max-w-xl lg:max-w-md md:max-w-sm max-w-xs mb-20 2xl:mb-40'>
               <h1 className='xl:text-5xl lg:text-4xl md:text-3xl text-2xl'>
