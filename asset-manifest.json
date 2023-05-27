@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fitness-website/static/css/main.b24646e6.css",
+    "main.js": "/fitness-website/static/js/main.788bef68.js",
+    "static/media/main-cover.jpg": "/fitness-website/static/media/main-cover.76fcca4cbb90e1fef607.jpg",
+    "static/media/home-image2.jpg": "/fitness-website/static/media/home-image2.779599a2b6fbdbc88f25.jpg",
+    "static/media/home-image1.jpg": "/fitness-website/static/media/home-image1.12ccfadf527d7c7adb35.jpg",
+    "static/media/sweat.svg": "/fitness-website/static/media/sweat.42eaa188eda50e8fcbbaba736c602dd7.svg",
+    "index.html": "/fitness-website/index.html",
+    "static/media/review-star.svg": "/fitness-website/static/media/review-star.789114669010341ca319e5c799253ce7.svg",
+    "main.b24646e6.css.map": "/fitness-website/static/css/main.b24646e6.css.map",
+    "main.788bef68.js.map": "/fitness-website/static/js/main.788bef68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b24646e6.css",
+    "static/js/main.788bef68.js"
+  ]
+}
