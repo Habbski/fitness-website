@@ -10,6 +10,7 @@ export default function ReviewCard({ review }) {
             <img
               src={Star}
               alt='star'
+              key={i}
               className={
                 ratingValue <= review.rating
                   ? 'text-yellow-500'

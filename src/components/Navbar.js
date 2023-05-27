@@ -71,7 +71,7 @@ export default function Navbar() {
               </div>
           </div>
 
-          <Disclosure.Panel className='sm:hidden'>
+          <Disclosure.Panel className='relative sm:hidden bg-gray-900 z-10'>
             <div className='space-y-1 px-2 pt-2 pb-3'>
               {navigation.map((item) => (
                 <Disclosure.Button
